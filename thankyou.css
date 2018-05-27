@@ -1,0 +1,73 @@
+body {
+    font-family: 'quicksand', sans-serif;
+}
+
+.home {
+    background: #3b3b3b;
+    height: 770px;
+    min-height: 770px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.home img {
+    height: 80px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#imglink {
+    background: none;
+    border: none;
+}
+
+.home h1 {
+    margin: 0;
+    color: #6c9;
+    font-size: 2em;
+    text-align: center;
+    margin: 0px 50px;
+}
+
+.home a {
+    color: #6c9;
+    text-decoration: none;
+    border: 1px solid #6c9;
+    border-radius: 2em;
+    padding: 10px 40px;
+    -webkit-transition: 0.2s all ease;
+    transition: 0.2s all ease;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.home a:hover {
+    background: #6c9;
+    color: #d1d5d8;
+}
+
+@media only screen and (max-width: 768px) {
+    .home h1 {
+        font-size: 1.5em;
+        margin: 0 20px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .home h1 {
+        font-size: 1.2em;
+        margin: 0 20px;
+    }
+}
